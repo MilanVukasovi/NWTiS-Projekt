@@ -1,0 +1,5 @@
+ispis=0
+maksCekanje=0
+mreznaVrata=8000
+brojCekaca=10
+brojRadnika=10

@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<%@ page import="java.util.Properties, java.io.FileInputStream"%>
+<!DOCTYPE html>
+<html>
+<header>
+<%
+
+Properties konfiguracija = new Properties();
+String konfig = application.getInitParameter("konfiguracija");
+String putanja = application.getRealPath("/WEB-INF") + java.io.File.separator;
+FileInputStream fis = new FileInputStream(putanja + konfig);
+konfiguracija.loadFromXML(fis);
+fis.close();
+%>
+<%
+  String korIme = (String) session.getAttribute("korIme");
+  if (korIme == null) {
+    korIme = "nije logiran";
+  }
+%>
+
+<p>Korisnik: <%= korIme %></p>
+</header>
+<a href="${pageContext.servletContext.contextPath}">Početna stranica</a><br/>
+<br/>
+</html>

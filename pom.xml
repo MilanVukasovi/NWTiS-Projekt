@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.foi.nwtis.mvukasovi</groupId>
+  <artifactId>mvukasovi_projekt</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>mvukasovi_projekt</name>
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	<modules>
+		<module>mvukasovi_lib_1</module>
+		<module>mvukasovi_lib_2</module>
+		<module>mvukasovi_aplikacija_1</module>
+		<module>mvukasovi_aplikacija_2</module>
+		<module>mvukasovi_aplikacija_3</module>
+		<module>mvukasovi_aplikacija_4</module>
+		<module>mvukasovi_aplikacija_5</module>
+	</modules>
+</project>

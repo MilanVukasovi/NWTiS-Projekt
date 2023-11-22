@@ -1,0 +1,354 @@
+{
+	"info": {
+		"_postman_id": "67b95594-2fd9-4278-82ee-987457947934",
+		"name": "nwtis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/aerodromi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/aerodromi/{icao}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/LDZA",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						"LDZA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/aerodromi/{icaoOd}/{icaoDo}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/LDZA/LOWW",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						"LDZA",
+						"LOWW"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/aerodromi/{icao}/udaljenosti",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/LDZA/udaljenosti",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						"LDZA",
+						"udaljenosti"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/aerodromi/{icaoOd}/izracunaj/{icaoDo}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/LDZA/izracunaj/LOWW",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						"LDZA",
+						"izracunaj",
+						"LOWW"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/aerodromi/{icaoOd}/udaljenost1/{icaoDo}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/LDZA/udaljenost1/LOWW",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						"LDZA",
+						"udaljenost1",
+						"LOWW"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/aerodromi/{icaoOd}/udaljenost2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/aerodromi/LDZA/udaljenost2/?drzava=HR&km=100",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"aerodromi",
+						"LDZA",
+						"udaljenost2",
+						""
+					],
+					"query": [
+						{
+							"key": "drzava",
+							"value": "HR"
+						},
+						{
+							"key": "km",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/nadzor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/nadzor/",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"nadzor",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/nadzor/INIT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/nadzor/INIT",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"nadzor",
+						"INIT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/nadzor/PAUZA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/nadzor/PAUZA",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"nadzor",
+						"PAUZA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/nadzor/KRAJ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/nadzor/KRAJ",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"nadzor",
+						"KRAJ"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/nadzor/INFO/DA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/nadzor/INFO/DA",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"nadzor",
+						"INFO",
+						"DA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/nadzor/INFO/Ne",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://200.20.0.4:8080/mvukasovi_aplikacija_2/api/nadzor/INFO/NE",
+					"protocol": "http",
+					"host": [
+						"200",
+						"20",
+						"0",
+						"4"
+					],
+					"port": "8080",
+					"path": [
+						"mvukasovi_aplikacija_2",
+						"api",
+						"nadzor",
+						"INFO",
+						"NE"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
